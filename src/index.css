@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+.dachbort_scrolbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
