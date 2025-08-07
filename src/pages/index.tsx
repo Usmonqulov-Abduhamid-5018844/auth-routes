@@ -1,8 +1,5 @@
 import React, { lazy, Suspense } from "react"
 import { useRoutes } from "react-router-dom"
-import AAA from "./dashbord/users/AAA/AAA"
-import BBB from "./dashbord/users/BBB/BBB"
-import Ccc from "./dashbord/users/CCC/Ccc"
 
 
 const Support = lazy(()=> import("./support//Support"))
@@ -19,6 +16,9 @@ const Dashbord = lazy(()=> import("./dashbord/Dashbort"))
 const Users = lazy(()=> import("./dashbord/users/Users"))
 const UserActivation = lazy(()=> import("./dashbord/users/activeUsers/ActiveUsers"))
 const Lorem = lazy(()=> import("./dashbord/users/lorem/Lorem"))
+const AAA = lazy(()=> import("./dashbord/users/AAA/AAA"))
+const BBB = lazy(()=> import("./dashbord/users/BBB/BBB"))
+const Ccc = lazy(()=> import("./dashbord/users/CCC/Ccc"))
 
 const Products = lazy(()=> import("./dashbord/product/Product"))
 const Category = lazy(()=> import("./dashbord/category/Category"))
